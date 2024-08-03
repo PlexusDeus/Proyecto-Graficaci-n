@@ -1,0 +1,17 @@
+Proyecto
+Para el proyecto final realicé un reproductor de música, el cual muestra las portadas de CDs del respectivo álbum de la canción.
+Cámara
+Es una cámara orbital que puede ser movida hacia adelante y hacia atrás con las teclas up y down, además al arrastar con el ratón este hace un rastreo hacia la dirección indicada, pero la animaciones están pensadas para una nula interacción por parte del usuario.
+Luz
+Se tiene una luz, y se hace uso de la iluminación BlinnPhong, Difuso Ambiental.
+Modelos Geométricos
+Fueron realizados a lo largo del curso, salvo Disco.js, el cual es una "Copia" de PrismaRectagular.js la cual fue adaptada para tomar las coordenas UV de un molde de textura propio.
+Texturas
+Todas las portadas de los discos fueron realizadas en Inkscape al juntar imágenes por separado obtenidas de https://www.discogs.com/
+De https://www.solarsystemscope.com/textures/ se obtuvieron Estrellas.jpg, Luna.jpg, Noche.jpg
+De https://www.freepik.com/ se obtuvieron Bajofondo.jpg, Mediofondo.jpg
+Canciones
+Descargadas de https://w.freemp3.tube/
+
+Comentarios
+

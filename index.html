@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Proyecto</title>
+  <script src="Utils/Math.js"></script>
+  <script src="Utils/Utils.js"></script>
+  <script src="Utils/OrbitCamera.js"></script>
+  <script src="Utils/LuzPuntual.js"></script>
+  <script src="Materials/Material.js"></script>
+  <script src="Materials/DiffuseAmbientMaterial.js"></script>
+  <script src="Materials/BlinnPhongMaterial.js"></script>
+  <script src="Materials/BlinnPhongTextureMaterial.js"></script>
+  <script src="Materials/TextureMaterial.js"></script>
+  <script src="Geometry/GenericGeometry.js"></script>
+  <script src="Geometry/Cilindro.js"></script>
+  <script src="Geometry/Cono.js"></script>
+  <script src="Geometry/Disco.js"></script>
+  <script src="Geometry/Dodecaedro.js"></script>
+  <script src="Geometry/Esfera.js"></script>
+  <script src="Geometry/Octaedro.js"></script>
+  <script src="Geometry/PrismaRectangular.js"></script>
+  <script src="Geometry/Tetraedro.js"></script>
+  <script src="Geometry/Toroide.js"></script>
+  <script src="Main.js"></script>
+</head>
+
+<body>
+  <canvas id="glcanvas"></canvas>
+
+  <div class="container">
+    <audio></audio>
+
+    <h1>Song</h1>
+
+    <div id="current_time">0:00</div>
+
+    <div class="buttons">
+      <button id="prev">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button id="play">
+        <i class="fas fa-play"></i>
+      </button>
+      <button id="next">
+        <i class="fas fa-forward"></i>
+      </button>
+    </div>
+
+    <div id="current_audio"></div>
+
+    <div class="progress_container">
+      <div id="progress"></div>
+    </div>
+
+  </div>
+
+<script src="App.js"></script> 
+</body>
+
+</html>
